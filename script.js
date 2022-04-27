@@ -4,4 +4,4 @@ import onlyNumber from './onlyNumber';
 
 phoneMask('[name="phone"]');
 textMask('[name="text"]');
-onlyNumber('[name="phone"]');
+onlyNumber('[name="number"]');
