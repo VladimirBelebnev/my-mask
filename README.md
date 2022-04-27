@@ -14,7 +14,7 @@ If you need to check the data entered into the input for compliance only with Ru
     <input type=text name=text required>
     
     <script>
-      phoneMask('[name="text"]');
+      textMask('[name="text"]');
     </script>
     
 If you need to validate the input only for numbers, then you need to add the name attribute and activate the function.
@@ -22,7 +22,7 @@ If you need to validate the input only for numbers, then you need to add the nam
     <input type=text name=number required>
     
     <script>
-      phoneMask('[name="number"]');
+      onlyNumbers('[name="number"]');
     </script>
     
 ❗Besides name attributes, you can use classes or data-attribute.
