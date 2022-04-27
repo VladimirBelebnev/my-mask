@@ -1,4 +1,4 @@
-const mask = (selector) => {
+const phoneMask = (selector) => {
 
     let setCursorPosition = (position, element) => {
         element.focus();
